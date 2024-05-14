@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Kitty",
+    "prefix": "Miss",
+    "image": "kitty.jpg",
+    "slogan": "Choose me as your next board member. Purr."
+  },
+  {
+    "name": "Doggo",
+    "prefix": "Mr",
+    "image": "doggo.jpg",
+    "slogan": "I'm a good boy. If you choose me, we'll be ruff!"
+  }
+]
