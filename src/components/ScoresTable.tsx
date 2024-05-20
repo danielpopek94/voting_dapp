@@ -15,19 +15,17 @@ export default function ScoresTable() {
 			<table>
 				<thead>
 					<tr>
-						<th>Candidate</th>
-						<th>Score</th>
+						<th className="scores__candidate">Candidate</th>
+						<th className="scores__score">Score</th>
 					</tr>
 				</thead>
 				<tbody>
-					{scores.map(({ slug, score }) => {
-						return (
+					{scores.map(({ slug, score }) => (
 							<tr key={slug}>
-								<td>{slug}</td>
-								<td>{score}</td>
+								<td className="scores__candidate">{slug}</td>
+								<td className="scores__score">{score}</td>
 							</tr>
-						);
-					})}
+						))}
 				</tbody>
 			</table>
 		</div>

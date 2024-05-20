@@ -1,4 +1,3 @@
-import "./App.scss";
 import Header from "./components/Header.tsx";
 import CandidatesList from "./components/CandidatesList.tsx";
 import ScoresTable from "./components/ScoresTable.tsx";
