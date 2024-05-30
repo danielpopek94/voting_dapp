@@ -31,4 +31,8 @@ contract Voting {
         require(_optionId == 1 || _optionId == 2, "Invalid option");
         return options[_optionId];
     }
+
+		function getAllOptions() public view returns (Option[2] memory) {
+        return [options[1], options[2]];
+    }
 }
