@@ -1,0 +1,15 @@
+version: "3"
+services:
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - ethereum
+
+  ethereum:
+    build:
+      context: ./ethereum
+    ports:
+      - "8545:8545"
